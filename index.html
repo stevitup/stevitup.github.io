@@ -1,0 +1,473 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Steven Guardado · Data Analyst &amp; AI-Assisted Developer</title>
+  <meta name="description" content="Steven Guardado is a data analyst in the Atlanta area who builds real web apps with AI tools like ChatGPT and Claude, and brings a creative background in theatre, film and photography.">
+  <meta property="og:title" content="Steven Guardado · Data Analyst &amp; AI-Assisted Developer">
+  <meta property="og:description" content="I build with AI, make data make sense, and think like an artist.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='14' fill='%232F54EB'/><text x='50%' y='54%' dominant-baseline='middle' text-anchor='middle' font-family='Georgia,serif' font-size='30' fill='white'>SG</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css?v=7">
+  <script>
+    // Apply saved theme before paint to avoid a flash
+    try {
+      const t = localStorage.getItem('theme');
+      if (t) document.documentElement.dataset.theme = t;
+    } catch (e) {}
+  </script>
+</head>
+<body id="top">
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="nav">
+    <div class="container nav__inner">
+      <a class="logo" href="#top" aria-label="Back to top">
+        <span class="logo__mark">SG</span>
+        <span class="logo__name">Steven Guardado</span>
+      </a>
+      <nav class="nav__links" id="nav-links" aria-label="Primary">
+        <a href="#work">Work</a>
+        <a href="#experience">Experience</a>
+        <a href="#creative">Creative</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="nav__actions">
+        <button class="icon-btn" id="theme-toggle" aria-label="Toggle dark mode">
+          <svg class="i-sun" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+          <svg class="i-moon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+        </button>
+        <a class="btn btn--small" href="assets/resume.pdf?v=4" target="_blank" rel="noopener">Résumé</a>
+        <button class="icon-btn nav__menu" id="menu-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="nav-links">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container hero__grid">
+        <div class="hero__copy reveal">
+          <p class="eyebrow"><span class="dot"></span> Open to data analyst &amp; AI-assisted developer roles</p>
+          <h1>I build with AI, make data make sense, and think like an <em>artist</em>.</h1>
+          <p class="lead">
+            Data analyst in the Atlanta area who builds real web apps with AI. I decide what to build,
+            guide tools like ChatGPT and Claude to build it, then test and ship it. I also turn data into
+            clear decisions with SQL and Tableau, and bring five years of customer-facing experience and a
+            creative background in theatre, film and photography.
+          </p>
+          <div class="hero__cta">
+            <a class="btn" href="#work">See my work</a>
+            <a class="btn btn--ghost" href="#contact">Get in touch</a>
+          </div>
+        </div>
+        <div class="hero__visual reveal">
+          <div class="portrait">
+            <img src="assets/portrait.jpg" alt="Portrait of Steven Guardado" width="2000" height="2000" fetchpriority="high">
+          </div>
+          <div class="float-card float-card--top">
+            <span class="float-card__label">Building with</span>
+            <span class="float-card__value">ChatGPT · Claude · Django</span>
+          </div>
+          <div class="float-card float-card--bottom">
+            <span class="float-card__label">Certified</span>
+            <span class="float-card__value">Google Data Analytics</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <dl class="stats reveal">
+          <div><dt>2</dt><dd>Full-stack web apps shipped with AI, including Stripe payments</dd></div>
+          <div><dt>5+</dt><dd>Years explaining technology to customers</dd></div>
+          <div><dt>5</dt><dd>Technical certifications, including Google Data Analytics</dd></div>
+          <div><dt>2</dt><dd>Languages: fluent English &amp; Spanish</dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <!-- PILLARS -->
+    <section class="section section--tint">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="kicker">What I bring</p>
+          <h2>Four strengths, one way of working.</h2>
+          <p class="section__sub">Most people bring one or two of these to a team. I bring all four, and each one makes the others stronger.</p>
+        </div>
+        <div class="pillars">
+          <article class="pillar reveal">
+            <div class="pillar__icon">
+              <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m16 18 6-6-6-6M8 6l-6 6 6 6"/></svg>
+            </div>
+            <h3>Build with AI</h3>
+            <p>I turn what a business needs into a working web app by directing AI coding tools: deciding what to build, guiding each feature, then testing and shipping the result.</p>
+            <ul class="ticks">
+              <li>AI-assisted development with ChatGPT &amp; Claude</li>
+              <li>Requirements and product decisions</li>
+              <li>Testing, Git and deploys on Render</li>
+            </ul>
+          </article>
+          <article class="pillar reveal">
+            <div class="pillar__icon">
+              <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="m7 15 4-4 3 3 6-6"/></svg>
+            </div>
+            <h3>Analyze</h3>
+            <p>Google-certified data analyst. I query, clean and visualize data so the people making decisions can see the story in the numbers.</p>
+            <ul class="ticks">
+              <li>SQL (PostgreSQL, Oracle), Python, R</li>
+              <li>Tableau dashboards &amp; Excel</li>
+              <li>Elasticsearch, Logstash, Kibana</li>
+            </ul>
+          </article>
+          <article class="pillar reveal">
+            <div class="pillar__icon">
+              <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.9M16 3.1a4 4 0 0 1 0 7.8"/></svg>
+            </div>
+            <h3>Lead &amp; communicate</h3>
+            <p>Five years in Verizon retail taught me to translate complex technology into plain language, coach new teammates, and stay calm when it's busy.</p>
+            <ul class="ticks">
+              <li>Train and coach new hires</li>
+              <li>#1 sales rep in the district</li>
+              <li>Promoted within 5 months</li>
+              <li>Bilingual: English &amp; Spanish</li>
+            </ul>
+          </article>
+          <article class="pillar reveal">
+            <div class="pillar__icon">
+              <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg>
+            </div>
+            <h3>Create</h3>
+            <p>Theatre, film and photography taught me to think about the audience first. I care how a product looks, how it feels, and the story it tells.</p>
+            <ul class="ticks">
+              <li>Freelance client work since 2018</li>
+              <li>User-first, visual thinking</li>
+              <li>Storytelling and presenting</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- WORK -->
+    <section class="section" id="work">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="kicker">Selected work</p>
+          <h2>Real products, built for real businesses.</h2>
+          <p class="section__sub">Built with AI as my coding partner. I set the requirements, made the product decisions, tested every flow and handled deployment.</p>
+        </div>
+
+        <ol class="process reveal" aria-label="How I build">
+          <li><span class="process__num">01</span><h3>Define</h3><p>Learn what the business needs and turn it into clear requirements.</p></li>
+          <li><span class="process__num">02</span><h3>Direct</h3><p>Build with AI coding tools (ChatGPT, Claude), guiding each feature step by step.</p></li>
+          <li><span class="process__num">03</span><h3>Test</h3><p>Run every flow, from checkout and payments to auctions, and fix what breaks.</p></li>
+          <li><span class="process__num">04</span><h3>Ship &amp; maintain</h3><p>Deploy to production, manage changes in Git and keep it running.</p></li>
+        </ol>
+
+        <article class="case reveal">
+          <div class="case__media">
+            <div class="browser">
+              <div class="browser__bar"><i></i><i></i><i></i><span>The Sweet Beaver</span></div>
+              <img src="assets/sweet-beaver-shop.webp" alt="The Sweet Beaver cake pop shop page with products, prices and Add to Cart buttons" loading="lazy">
+            </div>
+          </div>
+          <div class="case__body">
+            <p class="case__tag">E-commerce · Live on Render</p>
+            <h3>The Sweet Beaver</h3>
+            <p class="case__role"><strong>Built with ChatGPT.</strong> My role: product owner, requirements, testing and deployment.</p>
+            <p>A full-stack online bakery shop with a product catalog, cart, checkout and order tracking. Customers can shop in English or Spanish, and the owner runs everything from a custom-branded admin.</p>
+            <ul class="ticks">
+              <li>Stripe card and wallet payments alongside manual methods, each switchable on or off</li>
+              <li>Manual payments stay “Awaiting Payment” until verified, so an order is never marked paid on a customer's word alone</li>
+              <li>Pickup-slot scheduling that reveals the pickup address only at the right checkout step</li>
+              <li>Private order confirmation links, customer profiles and marketing-subscriber export</li>
+              <li>Deployed with persistent media storage, secrets in environment variables, sitemap and robots.txt for SEO</li>
+            </ul>
+            <ul class="chips">
+              <li>ChatGPT</li><li>Python</li><li>Django</li><li>PostgreSQL</li><li>Stripe</li><li>Render</li><li>English / Spanish</li>
+            </ul>
+            <div class="case__links">
+              <a class="link-arrow" href="#" target="_blank" rel="noopener">Visit live site</a>
+              <a class="link-arrow" href="https://github.com/stevitup/the-sweet-beaver" target="_blank" rel="noopener">View code</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="case case--flip reveal">
+          <div class="case__media">
+            <div class="browser">
+              <div class="browser__bar"><i></i><i></i><i></i><span>Alimac Mysteries</span></div>
+              <img src="assets/alimac-auction.webp?v=2" alt="Alimac Mysteries live auction page showing the current bid and a countdown to the auction ending" loading="lazy">
+            </div>
+          </div>
+          <div class="case__body">
+            <p class="case__tag">Online auctions &amp; shop · In progress</p>
+            <h3>Alimac Mysteries</h3>
+            <p class="case__role"><strong>Built with Claude.</strong> My role: product owner, requirements, testing and deployment.</p>
+            <p>An online shop and auction platform for a vintage, antique and decor business, with the rules real auctions need: proxy bidding, optional reserve prices and scheduled endings, plus a regular storefront and a sales dashboard for the owner.</p>
+            <ul class="ticks">
+              <li>Proxy bidding, reserve prices and scheduled auction endings</li>
+              <li>A custom background job that closes auctions, enforces a 48-hour payment window and sends second-chance offers to the next-highest bidder</li>
+              <li>Email-verified accounts with saved payment cards</li>
+              <li>Local pickup or shipping to the US, Canada and Mexico, with automatic sales tax</li>
+              <li>Automated tests; developed across macOS and Windows with Git</li>
+            </ul>
+            <ul class="chips">
+              <li>Claude</li><li>Python</li><li>Django</li><li>PostgreSQL</li><li>Stripe</li><li>Testing</li>
+            </ul>
+            <div class="case__links">
+              <a class="link-arrow" href="https://github.com/stevitup/alimac-mysteries" target="_blank" rel="noopener">View code</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="data-card reveal">
+          <div class="data-card__icon">
+            <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="12" width="4" height="9" rx="1"/><rect x="10" y="7" width="4" height="14" rx="1"/><rect x="17" y="3" width="4" height="18" rx="1"/></svg>
+          </div>
+          <div class="data-card__body">
+            <p class="case__tag">Data analysis</p>
+            <h3>Tableau dashboards</h3>
+            <p>Interactive dashboards that turn raw numbers into answers. For DDecker Painting, I pulled business data with SQL and built Tableau views of spending and earnings by region to support recommendations to ownership.</p>
+          </div>
+          <a class="btn btn--ghost" href="https://public.tableau.com/profile/stevitup" target="_blank" rel="noopener">Tableau Public portfolio</a>
+        </article>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section class="section section--tint" id="experience">
+      <div class="container lead-grid">
+        <div class="section__head section__head--left reveal">
+          <p class="kicker">Experience</p>
+          <h2>Where I learned to lead and communicate.</h2>
+          <p class="section__sub">Years of helping customers with technology taught me what great tech teams need: clear explanations, patience, coaching, and doing the job well when it's busy.</p>
+          <blockquote class="principle">
+            “Lead by doing: understand the work, share what you know, and clear the path for others.”
+          </blockquote>
+          <div class="creds">
+            <h3>Certifications</h3>
+            <ul>
+              <li><strong>Google Data Analytics Certificate</strong><span>Google · 2022</span></li>
+              <li><strong>The Complete Python Certification Course</strong><span>JobReadyProgrammer · 2022</span></li>
+              <li><strong>Elasticsearch Masterclass with Logstash &amp; Kibana</strong><span>JobReadyProgrammer · 2020</span></li>
+              <li><strong>The Complete Oracle SQL Certification Course</strong><span>JobReadyProgrammer · 2020</span></li>
+              <li><strong>Getting Started with Java</strong><span>JobReadyProgrammer · 2020</span></li>
+            </ul>
+            <h3>Education</h3>
+            <ul>
+              <li><strong>Georgia State University</strong><span>Atlanta, GA · 2015 – 2019</span></li>
+            </ul>
+          </div>
+        </div>
+
+        <ol class="timeline">
+          <li class="reveal">
+            <span class="timeline__date">Feb 2023 – Present</span>
+            <h3>Retail Sales Consultant</h3>
+            <p class="timeline__org">The Cellular Connection · Verizon Authorized Retailer</p>
+            <ul>
+              <li>Train new hires through buddy selling, coaching them on needs-based selling and customer communication</li>
+              <li>Break down complex bills and plan math so customers understand their costs</li>
+              <li>Translate technical device and network features into plain-language recommendations</li>
+              <li>Ranked <strong>#1 sales representative in the district</strong> and consistently among the <strong>region's top 10</strong></li>
+              <li>Consistently hit <strong>100%+ of monthly performance targets</strong> through outbound calling and appointment setting</li>
+            </ul>
+          </li>
+          <li class="reveal">
+            <span class="timeline__date">2018 – Present</span>
+            <h3>Freelance Photographer &amp; Videographer</h3>
+            <p class="timeline__org">Self-employed · <a class="inline-link" href="https://www.instagram.com/stevfilmstudios/" target="_blank" rel="noopener">@stevfilmstudios</a></p>
+            <ul>
+              <li>Photograph headshots, graduations, quinceañeras, events, food, pets, cars and landscapes for private clients</li>
+              <li>Direct, shoot and edit video in Adobe Premiere Pro and Final Cut Pro, from planning through the final cut</li>
+              <li>Run each project end to end: understanding the client's vision, scheduling, shooting, editing and delivery</li>
+            </ul>
+          </li>
+          <li class="reveal">
+            <span class="timeline__date">Oct 2021 – Dec 2022</span>
+            <h3>Verizon Specialist</h3>
+            <p class="timeline__org">Best Buy · Duluth, GA</p>
+            <ul>
+              <li>Analyzed customer needs to recommend the right product and plan</li>
+              <li>Delivered product presentations and demos for phones, wearables and connected devices</li>
+            </ul>
+          </li>
+          <li class="reveal">
+            <span class="timeline__date">Jun 2021 – Oct 2021</span>
+            <h3>Sales Advisor</h3>
+            <p class="timeline__org">Best Buy · Duluth, GA</p>
+            <ul>
+              <li>Provided technical support and product guidance across consumer electronics</li>
+              <li>Promoted to Verizon Specialist within 5 months</li>
+            </ul>
+          </li>
+          <li class="reveal">
+            <span class="timeline__date">Feb 2019 – Mar 2020</span>
+            <h3>Coordinator / Lead Host</h3>
+            <p class="timeline__org">Darden Restaurants · Buckhead, GA</p>
+            <ul>
+              <li>Coordinated guest flow and relayed special requests and allergies to the team in a high-volume restaurant</li>
+            </ul>
+          </li>
+          <li class="reveal">
+            <span class="timeline__date">Dec 2018 – Feb 2019</span>
+            <h3>Data Analyst (Part-time)</h3>
+            <p class="timeline__org">DDecker Painting · Canton, GA</p>
+            <ul>
+              <li>Built Tableau dashboards visualizing spending and earnings by region</li>
+              <li>Queried business data with SQL to support recommendations to ownership</li>
+            </ul>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- CREATIVE -->
+    <section class="section" id="creative">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="kicker">Creative background</p>
+          <h2>Where I learned to think differently.</h2>
+          <p class="section__sub">Long before I wrote code, I was telling stories on stage, behind the camera and through a lens. It's where my creative problem-solving comes from.</p>
+        </div>
+
+        <div class="creative">
+          <article class="creative__card reveal">
+            <img src="assets/theatre.jpg" style="object-position: center 10%" alt="Steven as Hero in A Funny Thing Happened on the Way to the Forum, 2017" loading="lazy">
+            <div class="creative__body">
+              <h3>Theatre</h3>
+              <p>Lead role of <strong>Hero</strong> in <em>A Funny Thing Happened on the Way to the Forum</em> (2017).</p>
+              <p class="creative__lesson"><strong>What it taught me:</strong> presenting with confidence, working as an ensemble, and delivering on opening night, every time.</p>
+            </div>
+          </article>
+          <article class="creative__card reveal">
+            <img src="assets/film-still.jpg" style="object-position: 75% center" alt="Still from a film Steven directed, edited and acted in: Steven seated in a dimly lit restaurant booth" loading="lazy">
+            <div class="creative__body">
+              <h3>Film</h3>
+              <p><strong>Director, editor and actor</strong> on a film showcased at the <em>Campus Student Film Festival</em>.</p>
+              <p class="creative__lesson"><strong>What it taught me:</strong> running a production from plan to final cut, keeping a crew aligned, and telling a story people remember.</p>
+            </div>
+          </article>
+          <article class="creative__card reveal">
+            <img src="assets/photography-car.jpg" alt="Vintage black car parked on a cobblestone street in front of an ivy-covered building with red doors, by @stevfilmstudios" loading="lazy">
+            <div class="creative__body">
+              <h3>Photography</h3>
+              <p>I shoot as <a class="inline-link" href="https://www.instagram.com/stevfilmstudios/" target="_blank" rel="noopener">@stevfilmstudios</a>, my photography brand, covering headshots, graduations, events, quinceañeras, food, pets, cars and landscapes.</p>
+              <p class="creative__lesson"><strong>What it taught me:</strong> an eye for detail, composition and light, the same instincts I use when I design an interface.</p>
+            </div>
+          </article>
+        </div>
+
+        <div class="gallery reveal" aria-label="Photography gallery">
+          <img src="assets/photo-1.jpg" alt="Graduation portrait of two graduates lying in confetti, by @stevfilmstudios" loading="lazy">
+          <img class="g-tall" src="assets/photo-2.jpg" style="object-position: center 20%" alt="Quinceañera portrait in a burgundy gown with a bouquet, by @stevfilmstudios" loading="lazy">
+          <img src="assets/photo-3.jpg" style="object-position: 35% center" alt="Close-up of caramel flan on a white plate, by @stevfilmstudios" loading="lazy">
+          <img src="assets/photo-4.jpg" style="object-position: center 18%" alt="Long-haired tabby cat with green eyes by a window, by @stevfilmstudios" loading="lazy">
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section section--tint">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="kicker">Toolkit</p>
+          <h2>Skills I use every day.</h2>
+        </div>
+        <div class="skills">
+          <div class="skills__group reveal">
+            <h3>Building with AI</h3>
+            <ul class="chips">
+              <li>AI-assisted development</li><li>ChatGPT</li><li>Claude</li><li>Requirements &amp; specs</li><li>Testing &amp; QA</li><li>Django</li><li>Stripe API</li><li>Git &amp; GitHub</li><li>VS Code</li><li>HTML &amp; CSS</li><li>Python (foundations)</li><li>Java (basics)</li>
+            </ul>
+          </div>
+          <div class="skills__group reveal">
+            <h3>Data</h3>
+            <ul class="chips">
+              <li>SQL</li><li>PostgreSQL</li><li>Oracle</li><li>R</li><li>Tableau</li><li>Excel</li><li>Elasticsearch</li><li>Logstash</li><li>Kibana</li>
+            </ul>
+          </div>
+          <div class="skills__group reveal">
+            <h3>Cloud &amp; deployment</h3>
+            <ul class="chips">
+              <li>Render</li><li>PostgreSQL hosting</li><li>Environment-based config</li><li>SEO (sitemaps, robots.txt)</li>
+            </ul>
+          </div>
+          <div class="skills__group reveal">
+            <h3>People &amp; creative</h3>
+            <ul class="chips">
+              <li>Coaching new hires</li><li>Technical communication</li><li>Presentations &amp; demos</li><li>Bilingual English / Spanish</li><li>Photography</li><li>Adobe Premiere Pro</li><li>Final Cut Pro</li><li>Film</li><li>Theatre</li><li>100+ WPM typing</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section" id="about">
+      <div class="container about">
+        <div class="about__photo reveal">
+          <img src="assets/about.jpg" alt="Steven exploring a slot canyon in a wide-brimmed hat" loading="lazy">
+        </div>
+        <div class="about__copy reveal">
+          <p class="kicker">About me</p>
+          <h2>A non-traditional path, on purpose.</h2>
+          <p>
+            I'm Steven, a Google-certified data analyst based in Lawrenceville, Georgia, who builds web apps with AI.
+            I studied at Georgia State University, and my creative background began with acting, dancing, and singing at age 15
+            before expanding into directing, cinematography, video editing, and photography during college. Since 2018, I've
+            combined those creative skills with technology through freelance work for clients, bringing a visual and storytelling
+            perspective to the way I approach data, design, and web development.
+          </p>
+          <p>
+            For the past five years I've worked in tech-facing customer roles with Verizon, helping people make sense of complex
+            plans and devices and training new teammates to do the same. Along the way I started building websites with AI:
+            The Sweet Beaver with ChatGPT, then Alimac Mysteries and this portfolio with Claude. I own the ideas, the
+            requirements and the testing, the AI writes most of the code, and I keep learning how it all works.
+          </p>
+          <p>
+            Now I'm moving into tech full time. My goal is to grow into a technical leader who can direct the build,
+            read the data, lead the team, and keep the people using the product at the center of every decision.
+          </p>
+          <p class="about__fun">Off the clock, you'll find me gaming, watching soccer or planning my next trip. Fun fact: I can tap dance.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section contact" id="contact">
+      <div class="container contact__inner reveal">
+        <p class="kicker kicker--light">Contact</p>
+        <h2>Let's build something great together.</h2>
+        <p>I'm looking for a data analyst or AI-assisted development role where I can ship, learn fast, and grow into leadership. If that sounds like your team, I'd love to talk.</p>
+        <div class="contact__cta">
+          <a class="btn btn--light js-email" data-user="stevcoding" data-domain="gmail.com" href="#contact">stevcoding [at] gmail [dot] com</a>
+          <a class="btn btn--outline-light" href="assets/resume.pdf?v=4" target="_blank" rel="noopener">Download résumé</a>
+        </div>
+        <ul class="socials">
+          <li><a href="https://www.linkedin.com/in/stevenrguardado/" target="_blank" rel="noopener">LinkedIn</a></li>
+          <li><a href="https://github.com/stevitup" target="_blank" rel="noopener">GitHub</a></li>
+          <li><a href="https://public.tableau.com/profile/stevitup" target="_blank" rel="noopener">Tableau Public</a></li>
+          <li><a href="https://www.instagram.com/stevfilmstudios/" target="_blank" rel="noopener">Instagram · @stevfilmstudios</a></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p>© <span id="year"></span> Steven Guardado. Designed by me, built with Claude.</p>
+      <a href="#top">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js?v=8"></script>
+</body>
+</html>
